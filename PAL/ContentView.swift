@@ -13,6 +13,9 @@ struct ContentView: View {
     }
 }
 
+// our usecase is to stream data from watch to mobile ap
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

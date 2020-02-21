@@ -26,6 +26,8 @@
 		67BB54CF24000267005BD10E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54CE24000267005BD10E /* NotificationView.swift */; };
 		67BB54D124000268005BD10E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB54D024000268005BD10E /* Assets.xcassets */; };
 		67BB54D424000268005BD10E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB54D324000268005BD10E /* Preview Assets.xcassets */; };
+		67BB54EB240005A7005BD10E /* WatchKitConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54EA240005A7005BD10E /* WatchKitConnection.swift */; };
+		67BB54ED24000AC5005BD10E /* LocalNotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54EC24000AC5005BD10E /* LocalNotificationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,8 @@
 		67BB54D324000268005BD10E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67BB54D524000268005BD10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67BB54D624000268005BD10E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		67BB54EA240005A7005BD10E /* WatchKitConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKitConnection.swift; sourceTree = "<group>"; };
+		67BB54EC24000AC5005BD10E /* LocalNotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 				67BB549624000266005BD10E /* LaunchScreen.storyboard */,
 				67BB549924000266005BD10E /* Info.plist */,
 				67BB549324000266005BD10E /* Preview Content */,
+				67BB54EA240005A7005BD10E /* WatchKitConnection.swift */,
+				67BB54EC24000AC5005BD10E /* LocalNotificationHelper.swift */,
 			);
 			path = PAL;
 			sourceTree = "<group>";
@@ -437,8 +443,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BB54ED24000AC5005BD10E /* LocalNotificationHelper.swift in Sources */,
 				67BB548C24000264005BD10E /* AppDelegate.swift in Sources */,
 				67BB548E24000264005BD10E /* SceneDelegate.swift in Sources */,
+				67BB54EB240005A7005BD10E /* WatchKitConnection.swift in Sources */,
 				67BB549024000264005BD10E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
