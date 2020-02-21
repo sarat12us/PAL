@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67BB548C24000264005BD10E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB548B24000264005BD10E /* AppDelegate.swift */; };
+		67BB548E24000264005BD10E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB548D24000264005BD10E /* SceneDelegate.swift */; };
+		67BB549024000264005BD10E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB548F24000264005BD10E /* ContentView.swift */; };
+		67BB549224000266005BD10E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB549124000266005BD10E /* Assets.xcassets */; };
+		67BB549524000266005BD10E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB549424000266005BD10E /* Preview Assets.xcassets */; };
+		67BB549824000266005BD10E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BB549624000266005BD10E /* LaunchScreen.storyboard */; };
+		67BB54A324000266005BD10E /* PALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54A224000266005BD10E /* PALTests.swift */; };
+		67BB54AE24000266005BD10E /* PALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54AD24000266005BD10E /* PALUITests.swift */; };
+		67BB54B324000266005BD10E /* PAL WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 67BB54B224000266005BD10E /* PAL WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67BB54B924000266005BD10E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BB54B724000266005BD10E /* Interface.storyboard */; };
+		67BB54BB24000267005BD10E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB54BA24000267005BD10E /* Assets.xcassets */; };
+		67BB54C224000267005BD10E /* PAL WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67BB54C124000267005BD10E /* PAL WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67BB54C724000267005BD10E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54C624000267005BD10E /* ContentView.swift */; };
+		67BB54C924000267005BD10E /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54C824000267005BD10E /* HostingController.swift */; };
+		67BB54CB24000267005BD10E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54CA24000267005BD10E /* ExtensionDelegate.swift */; };
+		67BB54CD24000267005BD10E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54CC24000267005BD10E /* NotificationController.swift */; };
+		67BB54CF24000267005BD10E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB54CE24000267005BD10E /* NotificationView.swift */; };
+		67BB54D124000268005BD10E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB54D024000268005BD10E /* Assets.xcassets */; };
+		67BB54D424000268005BD10E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB54D324000268005BD10E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67BB549F24000266005BD10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BB548024000264005BD10E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BB548724000264005BD10E;
+			remoteInfo = PAL;
+		};
+		67BB54AA24000266005BD10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BB548024000264005BD10E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BB548724000264005BD10E;
+			remoteInfo = PAL;
+		};
+		67BB54B424000266005BD10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BB548024000264005BD10E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BB54B124000266005BD10E;
+			remoteInfo = "PAL WatchKit App";
+		};
+		67BB54C324000267005BD10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BB548024000264005BD10E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BB54C024000267005BD10E;
+			remoteInfo = "PAL WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67BB54DC24000268005BD10E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				67BB54C224000267005BD10E /* PAL WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54E024000268005BD10E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				67BB54B324000266005BD10E /* PAL WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67BB548824000264005BD10E /* PAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB548B24000264005BD10E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67BB548D24000264005BD10E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67BB548F24000264005BD10E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67BB549124000266005BD10E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BB549424000266005BD10E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67BB549724000266005BD10E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67BB549924000266005BD10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BB549E24000266005BD10E /* PALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PALTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB54A224000266005BD10E /* PALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PALTests.swift; sourceTree = "<group>"; };
+		67BB54A424000266005BD10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BB54A924000266005BD10E /* PALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB54AD24000266005BD10E /* PALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PALUITests.swift; sourceTree = "<group>"; };
+		67BB54AF24000266005BD10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BB54B224000266005BD10E /* PAL WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAL WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB54B824000266005BD10E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		67BB54BA24000267005BD10E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BB54BC24000267005BD10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BB54C124000267005BD10E /* PAL WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PAL WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB54C624000267005BD10E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67BB54C824000267005BD10E /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		67BB54CA24000267005BD10E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		67BB54CC24000267005BD10E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		67BB54CE24000267005BD10E /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		67BB54D024000268005BD10E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BB54D324000268005BD10E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67BB54D524000268005BD10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BB54D624000268005BD10E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BB548524000264005BD10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB549B24000266005BD10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54A624000266005BD10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54BE24000267005BD10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67BB547F24000264005BD10E = {
+			isa = PBXGroup;
+			children = (
+				67BB548A24000264005BD10E /* PAL */,
+				67BB54A124000266005BD10E /* PALTests */,
+				67BB54AC24000266005BD10E /* PALUITests */,
+				67BB54B624000266005BD10E /* PAL WatchKit App */,
+				67BB54C524000267005BD10E /* PAL WatchKit Extension */,
+				67BB548924000264005BD10E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BB548924000264005BD10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BB548824000264005BD10E /* PAL.app */,
+				67BB549E24000266005BD10E /* PALTests.xctest */,
+				67BB54A924000266005BD10E /* PALUITests.xctest */,
+				67BB54B224000266005BD10E /* PAL WatchKit App.app */,
+				67BB54C124000267005BD10E /* PAL WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BB548A24000264005BD10E /* PAL */ = {
+			isa = PBXGroup;
+			children = (
+				67BB548B24000264005BD10E /* AppDelegate.swift */,
+				67BB548D24000264005BD10E /* SceneDelegate.swift */,
+				67BB548F24000264005BD10E /* ContentView.swift */,
+				67BB549124000266005BD10E /* Assets.xcassets */,
+				67BB549624000266005BD10E /* LaunchScreen.storyboard */,
+				67BB549924000266005BD10E /* Info.plist */,
+				67BB549324000266005BD10E /* Preview Content */,
+			);
+			path = PAL;
+			sourceTree = "<group>";
+		};
+		67BB549324000266005BD10E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67BB549424000266005BD10E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67BB54A124000266005BD10E /* PALTests */ = {
+			isa = PBXGroup;
+			children = (
+				67BB54A224000266005BD10E /* PALTests.swift */,
+				67BB54A424000266005BD10E /* Info.plist */,
+			);
+			path = PALTests;
+			sourceTree = "<group>";
+		};
+		67BB54AC24000266005BD10E /* PALUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67BB54AD24000266005BD10E /* PALUITests.swift */,
+				67BB54AF24000266005BD10E /* Info.plist */,
+			);
+			path = PALUITests;
+			sourceTree = "<group>";
+		};
+		67BB54B624000266005BD10E /* PAL WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				67BB54B724000266005BD10E /* Interface.storyboard */,
+				67BB54BA24000267005BD10E /* Assets.xcassets */,
+				67BB54BC24000267005BD10E /* Info.plist */,
+			);
+			path = "PAL WatchKit App";
+			sourceTree = "<group>";
+		};
+		67BB54C524000267005BD10E /* PAL WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67BB54C624000267005BD10E /* ContentView.swift */,
+				67BB54C824000267005BD10E /* HostingController.swift */,
+				67BB54CA24000267005BD10E /* ExtensionDelegate.swift */,
+				67BB54CC24000267005BD10E /* NotificationController.swift */,
+				67BB54CE24000267005BD10E /* NotificationView.swift */,
+				67BB54D024000268005BD10E /* Assets.xcassets */,
+				67BB54D524000268005BD10E /* Info.plist */,
+				67BB54D624000268005BD10E /* PushNotificationPayload.apns */,
+				67BB54D224000268005BD10E /* Preview Content */,
+			);
+			path = "PAL WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		67BB54D224000268005BD10E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67BB54D324000268005BD10E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BB548724000264005BD10E /* PAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB54E124000268005BD10E /* Build configuration list for PBXNativeTarget "PAL" */;
+			buildPhases = (
+				67BB548424000264005BD10E /* Sources */,
+				67BB548524000264005BD10E /* Frameworks */,
+				67BB548624000264005BD10E /* Resources */,
+				67BB54E024000268005BD10E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BB54B524000266005BD10E /* PBXTargetDependency */,
+			);
+			name = PAL;
+			productName = PAL;
+			productReference = 67BB548824000264005BD10E /* PAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67BB549D24000266005BD10E /* PALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB54E424000268005BD10E /* Build configuration list for PBXNativeTarget "PALTests" */;
+			buildPhases = (
+				67BB549A24000266005BD10E /* Sources */,
+				67BB549B24000266005BD10E /* Frameworks */,
+				67BB549C24000266005BD10E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BB54A024000266005BD10E /* PBXTargetDependency */,
+			);
+			name = PALTests;
+			productName = PALTests;
+			productReference = 67BB549E24000266005BD10E /* PALTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67BB54A824000266005BD10E /* PALUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB54E724000268005BD10E /* Build configuration list for PBXNativeTarget "PALUITests" */;
+			buildPhases = (
+				67BB54A524000266005BD10E /* Sources */,
+				67BB54A624000266005BD10E /* Frameworks */,
+				67BB54A724000266005BD10E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BB54AB24000266005BD10E /* PBXTargetDependency */,
+			);
+			name = PALUITests;
+			productName = PALUITests;
+			productReference = 67BB54A924000266005BD10E /* PALUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		67BB54B124000266005BD10E /* PAL WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB54DD24000268005BD10E /* Build configuration list for PBXNativeTarget "PAL WatchKit App" */;
+			buildPhases = (
+				67BB54B024000266005BD10E /* Resources */,
+				67BB54DC24000268005BD10E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BB54C424000267005BD10E /* PBXTargetDependency */,
+			);
+			name = "PAL WatchKit App";
+			productName = "PAL WatchKit App";
+			productReference = 67BB54B224000266005BD10E /* PAL WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		67BB54C024000267005BD10E /* PAL WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB54D924000268005BD10E /* Build configuration list for PBXNativeTarget "PAL WatchKit Extension" */;
+			buildPhases = (
+				67BB54BD24000267005BD10E /* Sources */,
+				67BB54BE24000267005BD10E /* Frameworks */,
+				67BB54BF24000267005BD10E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PAL WatchKit Extension";
+			productName = "PAL WatchKit Extension";
+			productReference = 67BB54C124000267005BD10E /* PAL WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BB548024000264005BD10E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					67BB548724000264005BD10E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					67BB549D24000266005BD10E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 67BB548724000264005BD10E;
+					};
+					67BB54A824000266005BD10E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 67BB548724000264005BD10E;
+					};
+					67BB54B124000266005BD10E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					67BB54C024000267005BD10E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 67BB548324000264005BD10E /* Build configuration list for PBXProject "PAL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67BB547F24000264005BD10E;
+			productRefGroup = 67BB548924000264005BD10E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BB548724000264005BD10E /* PAL */,
+				67BB549D24000266005BD10E /* PALTests */,
+				67BB54A824000266005BD10E /* PALUITests */,
+				67BB54B124000266005BD10E /* PAL WatchKit App */,
+				67BB54C024000267005BD10E /* PAL WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BB548624000264005BD10E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB549824000266005BD10E /* LaunchScreen.storyboard in Resources */,
+				67BB549524000266005BD10E /* Preview Assets.xcassets in Resources */,
+				67BB549224000266005BD10E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB549C24000266005BD10E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54A724000266005BD10E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54B024000266005BD10E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB54BB24000267005BD10E /* Assets.xcassets in Resources */,
+				67BB54B924000266005BD10E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54BF24000267005BD10E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB54D424000268005BD10E /* Preview Assets.xcassets in Resources */,
+				67BB54D124000268005BD10E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BB548424000264005BD10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB548C24000264005BD10E /* AppDelegate.swift in Sources */,
+				67BB548E24000264005BD10E /* SceneDelegate.swift in Sources */,
+				67BB549024000264005BD10E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB549A24000266005BD10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB54A324000266005BD10E /* PALTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54A524000266005BD10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB54AE24000266005BD10E /* PALUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB54BD24000267005BD10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB54C924000267005BD10E /* HostingController.swift in Sources */,
+				67BB54C724000267005BD10E /* ContentView.swift in Sources */,
+				67BB54CD24000267005BD10E /* NotificationController.swift in Sources */,
+				67BB54CB24000267005BD10E /* ExtensionDelegate.swift in Sources */,
+				67BB54CF24000267005BD10E /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67BB54A024000266005BD10E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BB548724000264005BD10E /* PAL */;
+			targetProxy = 67BB549F24000266005BD10E /* PBXContainerItemProxy */;
+		};
+		67BB54AB24000266005BD10E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BB548724000264005BD10E /* PAL */;
+			targetProxy = 67BB54AA24000266005BD10E /* PBXContainerItemProxy */;
+		};
+		67BB54B524000266005BD10E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BB54B124000266005BD10E /* PAL WatchKit App */;
+			targetProxy = 67BB54B424000266005BD10E /* PBXContainerItemProxy */;
+		};
+		67BB54C424000267005BD10E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BB54C024000267005BD10E /* PAL WatchKit Extension */;
+			targetProxy = 67BB54C324000267005BD10E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67BB549624000266005BD10E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BB549724000266005BD10E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		67BB54B724000266005BD10E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BB54B824000266005BD10E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67BB54D724000268005BD10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67BB54D824000268005BD10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BB54DA24000268005BD10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PAL WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PAL WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PAL.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		67BB54DB24000268005BD10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PAL WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PAL WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PAL.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		67BB54DE24000268005BD10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				IBSC_MODULE = PAL_WatchKit_Extension;
+				INFOPLIST_FILE = "PAL WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PAL.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		67BB54DF24000268005BD10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				IBSC_MODULE = PAL_WatchKit_Extension;
+				INFOPLIST_FILE = "PAL WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PAL.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		67BB54E224000268005BD10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PAL/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67BB54E324000268005BD10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PAL/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67BB54E524000268005BD10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				INFOPLIST_FILE = PALTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAL.app/PAL";
+			};
+			name = Debug;
+		};
+		67BB54E624000268005BD10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				INFOPLIST_FILE = PALTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAL.app/PAL";
+			};
+			name = Release;
+		};
+		67BB54E824000268005BD10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				INFOPLIST_FILE = PALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAL;
+			};
+			name = Debug;
+		};
+		67BB54E924000268005BD10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YHNVMKKDU;
+				INFOPLIST_FILE = PALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sindvin.pal.PALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BB548324000264005BD10E /* Build configuration list for PBXProject "PAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB54D724000268005BD10E /* Debug */,
+				67BB54D824000268005BD10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB54D924000268005BD10E /* Build configuration list for PBXNativeTarget "PAL WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB54DA24000268005BD10E /* Debug */,
+				67BB54DB24000268005BD10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB54DD24000268005BD10E /* Build configuration list for PBXNativeTarget "PAL WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB54DE24000268005BD10E /* Debug */,
+				67BB54DF24000268005BD10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB54E124000268005BD10E /* Build configuration list for PBXNativeTarget "PAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB54E224000268005BD10E /* Debug */,
+				67BB54E324000268005BD10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB54E424000268005BD10E /* Build configuration list for PBXNativeTarget "PALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB54E524000268005BD10E /* Debug */,
+				67BB54E624000268005BD10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB54E724000268005BD10E /* Build configuration list for PBXNativeTarget "PALUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB54E824000268005BD10E /* Debug */,
+				67BB54E924000268005BD10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67BB548024000264005BD10E /* Project object */;
+}
